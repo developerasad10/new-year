@@ -19,12 +19,13 @@ nav img{
 nav ul {
     display: flex;
     list-style-type: none;
-   text-align: center;
+   
   }
 
  nav ul li a {
     
     color: white;
+    text-align: right;
     padding: 14px 16px;
     text-decoration: none;
   }
@@ -34,13 +35,13 @@ nav ul {
 
 
 
-nav ul li a:hover:not(.active) {
+li a:hover:not(.active) {
   background-color: #111;
 }
 
 .active {
   background-color: #04AA6D;
-} */
+} 
 /* ------Nav BAr End-------- */
 .main_container{
     padding: 2px;
