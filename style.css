@@ -4,6 +4,44 @@ body {
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
 }
+/* -----nav bar----- */
+nav{
+    background-color: black;
+    display: flex;
+}
+nav img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+   text-align: center;
+  }
+
+ nav ul li a {
+    
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+
+
+
+
+
+nav ul li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+} */
+/* ------Nav BAr End-------- */
 .main_container{
     padding: 2px;
     background-image:url('./banner/banner2.png');
